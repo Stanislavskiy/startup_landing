@@ -1,0 +1,31 @@
+.flex {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+}
+
+.flex_justify-content_center {
+  justify-content: center;
+}
+
+.flex_justify-content_space-around {
+  justify-content: space-around;
+}
+
+.flex_justify-content_space-between {
+  justify-content: space-between;
+}
+
+.flex_align-items_center {
+  align-items: center;
+}
+
+.flex_col {
+  flex-direction: column;
+}
+
+.flex_row {
+  flex-direction: row;
+}

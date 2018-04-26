@@ -1,0 +1,37 @@
+.font {
+  color: #555555;
+}
+
+/* Primary font */
+/* ------------------------------------- */
+.font_primary-regular {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.font_primary-medium {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.font_primary-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.font_primary-light {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.font_primary-thin {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+/* Secondary font */
+/* ------------------------------------- */
+.font_secondary-regular {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}

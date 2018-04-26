@@ -1,0 +1,17 @@
+.section {
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  /* Small */
+  .section {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* medium */
+  .section {
+    width: 90%;
+  }
+}
