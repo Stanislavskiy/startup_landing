@@ -1,0 +1,60 @@
+.page-home {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url("bg.jpg") no-repeat center / cover;
+  color: #fff;
+}
+
+.page-home__header {
+  margin-top: 7vh;
+}
+
+.page-home__menu {
+  width: 50%;
+}
+
+.page-home__menu-item {
+  cursor: pointer;
+}
+
+.page-home__menu-item:hover {
+  color: #C77876;
+}
+
+.page-home__logo {
+  font-size: 1.5rem;
+  color: #fff
+}
+
+.page-home__center {
+  margin-top: 30vh;
+}
+
+.page-home__display {
+  font-size: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.page-home__text {
+  margin-top: 3vh;
+  font-size: 1.25rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.page-home__button {
+  width: 11rem;
+  height: 3rem;
+  background: transparent;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 7vh;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.page-home__button:hover {
+  color: #C77876;
+  border-color: #C77876;
+}
