@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+  .page-home__header {
+    margin-top: 3rem;
+  }
+
+  .page-home__menu {
+    display: none;
+  }
+
+  .page-home__logo {
+    font-size: 2rem;
+  }
+}

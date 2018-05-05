@@ -1,6 +1,7 @@
 .page-home {
   height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url("bg.jpg") no-repeat center / cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("bg.jpg") no-repeat center / cover;
   color: #fff;
 }
 
@@ -17,12 +18,12 @@
 }
 
 .page-home__menu-item:hover {
-  color: #C77876;
+  color: #c77876;
 }
 
 .page-home__logo {
   font-size: 1.5rem;
-  color: #fff
+  color: #fff;
 }
 
 .page-home__center {
@@ -31,6 +32,7 @@
 
 .page-home__display {
   font-size: 3rem;
+  text-align: center;
   color: #fff;
   text-transform: uppercase;
 }
@@ -55,6 +57,6 @@
 }
 
 .page-home__button:hover {
-  color: #C77876;
-  border-color: #C77876;
+  color: #c77876;
+  border-color: #c77876;
 }

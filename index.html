@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +9,40 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700|Roboto+Slab" rel="stylesheet">
   <!-- Baase components  -->
+  <link rel="stylesheet" href="components/hamburger.min.css">
   <link rel="stylesheet" href="components/font.css">
   <link rel="stylesheet" href="components/common.css">
   <link rel="stylesheet" href="components/section.css">
   <link rel="stylesheet" href="components/flex.css">
   <!-- Pages -->
   <link rel="stylesheet" href="components/page-home/page-home.css">
-
+  <link rel="stylesheet" href="components/page-home/page-home-responsive.css">
+  <link rel="stylesheet" href="components/navigation/navigation.css">
 </head>
+
 <body>
   <!-- Page home -->
   <div class="page-home font font_primary-regular flex flex_justify-content_center">
     <div class="section">
       <div class="page-home__header flex flex_justify-content_space-between flex_align-items-center">
         <div class="page-home__logo font font_primary-bold">Startup</div>
+        <div class="navigation">
+          <div class="navigation__toggle">
+            <div class="navigation__toggle-bar"></div>
+          </div>
+          <nav class="navigation__menu">
+            <div class="navigation__container">
+              <a class="navigation__menu-item">Home</a>
+              <a class="navigation__menu-item">Services</a>
+              <a class="navigation__menu-item">About</a>
+              <a class="navigation__menu-item">Works</a>
+              <a class="navigation__menu-item">Blog</a>
+              <a class="navigation__menu-item">Clients</a>
+              <a class="navigation__menu-item">Contact</a>
+            </div>
+          </nav>
+
+        </div>
         <div class="page-home__menu flex flex_justify-content_space-between">
           <a class="page-home__menu-item">Home</a>
           <a class="page-home__menu-item">Services</a>
@@ -45,5 +66,9 @@
       </div>
     </div>
   </div>
+
+  <!-- JS -->
+  <script src="components/navigation/navigation.js"></script>
 </body>
+
 </html>

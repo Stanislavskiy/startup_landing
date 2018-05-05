@@ -1,0 +1,122 @@
+.navigation {
+  display: block;
+}
+.navigation__menu {
+  display: none;
+  -webkit-transition: right 0.5s ease;
+  -moz-transition: right 0.5s ease;
+  -ms-transition: right 0.5s ease;
+  -o-transition: right 0.5s ease;
+  transition: right 0.5s ease;
+  background: #c77876;
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  height: 100vh;
+  right: -20rem;
+  padding: 6rem 2rem 2rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 20rem;
+  z-index: 1;
+}
+
+.navigation__menu.navigation__expanded {
+  right: 0;
+}
+
+.navigation__menu .navigation__container {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__menu-item {
+  display: block;
+}
+
+.navigation__toggle {
+  display: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  height: 2rem;
+  /* right: 2rem; */
+  position: relative;
+  /* top: 2.2rem; */
+  width: 3.6rem;
+  z-index: 2;
+}
+
+.navigation__toggle:hover {
+  opacity: 0.8;
+}
+
+.navigation__toggle .navigation__toggle-bar,
+.navigation__toggle .navigation__toggle-bar::after,
+.navigation__toggle .navigation__toggle-bar::before {
+  position: absolute;
+  /* top: 0px; */
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background: white;
+  content: "";
+  height: 0.4rem;
+  width: 100%;
+}
+
+.navigation__toggle .navigation__toggle-bar {
+  margin-top: 0.4rem;
+}
+
+.navigation__toggle .navigation__toggle-bar::after {
+  margin-top: 1.6rem;
+}
+
+.navigation__toggle .navigation__toggle-bar::before {
+  margin-top: 0.9rem;
+}
+
+.navigation__toggle.navigation__expanded .navigation__toggle-bar {
+  background: transparent;
+}
+
+.navigation__toggle.navigation__expanded .navigation__toggle-bar::after,
+.navigation__toggle.navigation__expanded .navigation__toggle-bar::before {
+  background: white;
+  margin-top: 0;
+}
+
+.navigation__toggle.navigation__expanded .navigation__toggle-bar::after {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.navigation__toggle.navigation__expanded .navigation__toggle-bar::before {
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+  .navigation__menu {
+    display: block;
+  }
+
+  .navigation__toggle {
+    display: block;
+  }
+}
