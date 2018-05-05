@@ -2,7 +2,6 @@
   display: block;
 }
 .navigation__menu {
-  display: none;
   -webkit-transition: right 0.5s ease;
   -moz-transition: right 0.5s ease;
   -ms-transition: right 0.5s ease;
@@ -21,17 +20,16 @@
   z-index: 1;
 }
 
-.navigation__menu.navigation__expanded {
+.navigation__expanded {
   right: 0;
 }
 
-.navigation__menu .navigation__container {
+.navigation__container {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -41,15 +39,12 @@
 }
 
 .navigation__toggle {
-  display: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
   cursor: pointer;
   height: 2rem;
-  /* right: 2rem; */
   position: relative;
-  /* top: 2.2rem; */
   width: 3.6rem;
   z-index: 2;
 }
@@ -58,11 +53,9 @@
   opacity: 0.8;
 }
 
-.navigation__toggle .navigation__toggle-bar,
-.navigation__toggle .navigation__toggle-bar::after,
-.navigation__toggle .navigation__toggle-bar::before {
+.navigation__toggle-bar::after,
+.navigation__toggle-bar::before {
   position: absolute;
-  /* top: 0px; */
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -77,23 +70,15 @@
   width: 100%;
 }
 
-.navigation__toggle .navigation__toggle-bar {
-  margin-top: 0.4rem;
+.navigation__toggle-bar::after {
+  margin-top: 1.7rem;
 }
 
-.navigation__toggle .navigation__toggle-bar::after {
-  margin-top: 1.6rem;
+.navigation__toggle-bar::before {
+  margin-top: 0.8rem;
 }
 
-.navigation__toggle .navigation__toggle-bar::before {
-  margin-top: 0.9rem;
-}
-
-.navigation__toggle.navigation__expanded .navigation__toggle-bar {
-  background: transparent;
-}
-
-.navigation__toggle.navigation__expanded .navigation__toggle-bar::after,
+.navigation__expanded .navigation__toggle-bar::after,
 .navigation__toggle.navigation__expanded .navigation__toggle-bar::before {
   background: white;
   margin-top: 0;
@@ -109,14 +94,4 @@
   -ms-transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-}
-
-@media screen and (max-width: 768px) {
-  .navigation__menu {
-    display: block;
-  }
-
-  .navigation__toggle {
-    display: block;
-  }
 }

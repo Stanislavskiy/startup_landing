@@ -10,4 +10,8 @@
   .page-home__logo {
     font-size: 2rem;
   }
+
+  .page-home__center {
+    margin-top: 25vh;
+  }
 }

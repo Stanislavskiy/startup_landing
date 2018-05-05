@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+  .navigation__menu {
+    display: none;
+  }
+
+  .navigation__toggle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation__menu {
+    display: block;
+  }
+
+  .navigation__toggle {
+    display: block;
+  }
+}
