@@ -1,0 +1,43 @@
+@import "page-services-responsive.css";
+
+.page-services {
+  padding-bottom: 4.375rem;
+}
+
+.page-services__services {
+  margin-top: 4.375rem;
+}
+
+.page-services__service {
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.page-services__service-image-wrapper {
+  width: 5.625rem;
+  height: 5.625rem;
+  border-radius: 50%;
+  border: 2pt solid #ddd;
+}
+
+.page-services__service-image-wrapper:hover {
+  background: #c0301c;
+}
+
+.page-services__service-image-wrapper:hover .page-services__service-image {
+  filter: contrast(0%) brightness(200%);
+}
+
+.page-services__service-title {
+  text-transform: uppercase;
+  margin-top: 1.6875rem;
+}
+
+.page-services__service-description {
+  margin-top: 1.125rem;
+  font-size: 0.875;
+  line-height: 1.5rem;
+  min-width: 12.5rem;
+  max-width: 24.7rem;
+}

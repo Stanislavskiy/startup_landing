@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-  .page-home__header {
+  .page-home .page-home__header {
     margin-top: 3rem;
   }
 
@@ -7,11 +7,7 @@
     display: none;
   }
 
-  .page-home__logo {
-    font-size: 2rem;
-  }
-
-  .page-home__center {
-    margin-top: 25vh;
+  .page-home .page-home__logo {
+    font-size: 2rem !important;
   }
 }

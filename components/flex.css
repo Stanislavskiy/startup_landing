@@ -1,8 +1,8 @@
 .flex {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;     /* NEW - Chrome */
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
   display: flex;
 }
 
@@ -22,10 +22,49 @@
   align-items: center;
 }
 
+.flex_align-items_end {
+  align-items: flex-end;
+}
+
 .flex_col {
   flex-direction: column;
 }
 
 .flex_row {
   flex-direction: row;
+}
+
+.flex_column {
+  flex-direction: column;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
+.flex_order_1 {
+  order: 1;
+}
+
+/* small */
+@media screen and (max-width: 768px) {
+  .flex_small-column {
+    flex-direction: column;
+  }
+
+  .flex_small-align-self_end {
+    align-self: flex-end;
+  }
+
+  .flex_small-align-items_center {
+    align-items: center;
+  }
+
+  .flex_small-justify-content_space-around {
+    justify-content: space-around;
+  }
+
+  .flex_small-justify-content_center {
+    justify-content: center;
+  }
 }

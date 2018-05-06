@@ -6,19 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Startup</title>
-  <!-- Fonts -->
+  <!-- Fonts & icons -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+    crossorigin="anonymous">
   <!-- Baase components  -->
-  <link rel="stylesheet" href="components/hamburger.min.css">
   <link rel="stylesheet" href="components/font.css">
   <link rel="stylesheet" href="components/common.css">
   <link rel="stylesheet" href="components/section.css">
   <link rel="stylesheet" href="components/flex.css">
+  <link rel="stylesheet" href="components/title.css">
   <!-- Pages -->
   <link rel="stylesheet" href="components/page-home/page-home.css">
-  <link rel="stylesheet" href="components/page-home/page-home-responsive.css">
   <link rel="stylesheet" href="components/navigation/navigation.css">
-  <link rel="stylesheet" href="components/navigation/navigation-responsive.css">
+  <link rel="stylesheet" href="components/page-services/page-services.css">
+  <link rel="stylesheet" href="components/page-about/page-about.css">
 </head>
 
 <body>
@@ -26,12 +28,14 @@
   <div class="page-home font font_primary-regular flex flex_justify-content_center">
     <div class="section">
       <div class="page-home__header flex flex_justify-content_space-between flex_align-items-center">
-        <div class="page-home__logo font font_primary-bold">Startup</div>
+        <div class="page-home__logo font font_primary-bold">
+          Startup
+        </div>
         <div class="navigation">
           <div class="navigation__toggle">
             <div class="navigation__toggle-bar"></div>
           </div>
-          <nav class="navigation__menu">
+          <div class="navigation__menu">
             <div class="navigation__container">
               <a class="navigation__menu-item">Home</a>
               <a class="navigation__menu-item">Services</a>
@@ -41,10 +45,9 @@
               <a class="navigation__menu-item">Clients</a>
               <a class="navigation__menu-item">Contact</a>
             </div>
-          </nav>
-
+          </div>
         </div>
-        <div class="page-home__menu flex flex_justify-content_space-between">
+        <div class="page-home__menu flex flex_justify-content_space-between flex_align-items_center">
           <a class="page-home__menu-item">Home</a>
           <a class="page-home__menu-item">Services</a>
           <a class="page-home__menu-item">About</a>
@@ -68,6 +71,184 @@
     </div>
   </div>
 
+  <div class="page-services flex flex_justify-content_center">
+    <div class="section">
+      <div class="title">
+        <div class="title__text font font_primary-bold">Services</div>
+        <div class="title__line"></div>
+        <div class="title__description font font_secondary-regular">
+          We offer ipsum dolor sit amet, consetetur sadipscing elitr amet
+        </div>
+      </div>
+      <div class="page-services__services flex flex_justify-content_space-between flex_small-column">
+        <div class="page-services__service flex flex_align-items_center flex_column">
+          <div class="page-services__service-image-wrapper flex flex_justify-content_center flex_align-items_center">
+            <img class="page-services__service-image" src="components/page-services/fa-font.png" alt="img">
+          </div>
+          <div class="page-services__service-title font font_primary-medium">
+            Clean Typography
+          </div>
+          <div class="page-services__service-description font font_secondary-regular">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta
+            impedit. Lorem ipsum.
+          </div>
+        </div>
+        <div class="page-services__service flex flex_align-items_center flex_column">
+          <div class="page-services__service-image-wrapper flex flex_justify-content_center flex_align-items_center">
+            <img class="page-services__service-image" src="components/page-services/fa-code.png" alt="img">
+          </div>
+          <div class="page-services__service-title font font_primary-medium">
+            Rock Solid Code
+          </div>
+          <div class="page-services__service-description font font_secondary-regular">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta
+            impedit. Lorem ipsum.
+          </div>
+        </div>
+        <div class="page-services__service flex flex_align-items_center flex_column">
+          <div class="page-services__service-image-wrapper flex flex_justify-content_center flex_align-items_center">
+            <img class="page-services__service-image" src="components/page-services/fa-support.png" alt="img">
+          </div>
+          <div class="page-services__service-title font font_primary-medium">
+            Expert Support
+          </div>
+          <div class="page-services__service-description font font_secondary-regular">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta
+            impedit. Lorem ipsum.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-about flex flex_justify-content_center">
+    <div class="section">
+      <div class="title">
+        <div class="title__text font font_primary-bold">About us</div>
+        <div class="title__line"></div>
+        <div class="title__description font font_secondary-regular">
+          We offer ipsum dolor sit amet, consetetur sadipscing elitr amet
+        </div>
+      </div>
+      <div class="flex flex_justify-content_space-between flex_align-items_center flex_small-column font font_secondary-regular">
+        <div class="page-about__description">
+          lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam
+          erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit
+          amet. Lorem ipsum eat.
+        </div>
+        <div class="page-about__description">
+          lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam
+          erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit
+          amet. Lorem ipsum eat.
+        </div>
+      </div>
+      <div class="page-about__profiles flex flex_justify-content_space-between flex_align-items_center flex_wrap">
+        <div class="page-about__profile">
+          <div class="page-about__profile-picture">
+            <img class="page-about__profile-image" src="components/page-about/1.png" alt="img">
+            <div class="page-about__profile-screen flex flex_justify-content_center flex_align-items_end flex_small-justify-content_center flex_small-align-items_center">
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+          <div class="page-about__profile-title font font_primary-bold">
+            Md. Khalil Uddin
+          </div>
+          <div class="page-about__profile-description font font_secondary-regular">
+            Head of Ideas
+          </div>
+        </div>
+        <div class="page-about__profile">
+          <div class="page-about__profile-picture">
+            <img class="page-about__profile-image" src="components/page-about/2.png" alt="img">
+            <div class="page-about__profile-screen flex flex_justify-content_center flex_align-items_end flex_small-justify-content_center flex_small-align-items_center">
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+          <div class="page-about__profile-title font font_primary-bold">
+            Rubel Miah
+          </div>
+          <div class="page-about__profile-description font font_secondary-regular">
+            Lead WordPress Developer
+          </div>
+        </div>
+        <div class="page-about__profile">
+          <div class="page-about__profile-picture">
+            <img class="page-about__profile-image" src="components/page-about/3.png" alt="img">
+            <div class="page-about__profile-screen flex flex_justify-content_center flex_align-items_end flex_small-justify-content_center flex_small-align-items_center">
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+          <div class="page-about__profile-title font font_primary-bold">
+            Shamim Mia
+          </div>
+          <div class="page-about__profile-description font font_secondary-regular">
+            Sr. Web Developer
+          </div>
+        </div>
+        <div class="page-about__profile">
+          <div class="page-about__profile-picture">
+            <img class="page-about__profile-image" src="components/page-about/4.png" alt="img">
+            <div class="page-about__profile-screen flex flex_justify-content_center flex_align-items_end flex_small-justify-content_center flex_small-align-items_center">
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+              <a class="page-about__social-link flex flex_align-items_center flex_justify-content_center" href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            </a>
+          </div>
+          <div class="page-about__profile-title font font_primary-bold">
+            John Doe
+          </div>
+          <div class="page-about__profile-description font font_secondary-regular">
+            Front-end Developer
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- JS -->
   <script src="components/navigation/navigation.js"></script>
 </body>

@@ -1,3 +1,5 @@
+@import "page-home-responsive.css";
+
 .page-home {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
