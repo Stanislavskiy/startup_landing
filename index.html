@@ -16,22 +16,26 @@
   <link rel="stylesheet" href="components/section.css">
   <link rel="stylesheet" href="components/flex.css">
   <link rel="stylesheet" href="components/title.css">
+  <link rel="stylesheet" href="components/button.css">
   <!-- Pages -->
   <link rel="stylesheet" href="components/page-home/page-home.css">
   <link rel="stylesheet" href="components/navigation/navigation.css">
   <link rel="stylesheet" href="components/page-services/page-services.css">
   <link rel="stylesheet" href="components/page-about/page-about.css">
+  <link rel="stylesheet" href="components/page-work/page-work.css">
+  <link rel="stylesheet" href="components/banner/banner.css">
+
 </head>
 
 <body>
   <!-- Page home -->
-  <div class="page-home font font_primary-regular flex flex_justify-content_center">
+  <section class="page-home font font_primary-regular flex flex_justify-content_center">
     <div class="section">
       <div class="page-home__header flex flex_justify-content_space-between flex_align-items-center">
         <div class="page-home__logo font font_primary-bold">
           Startup
         </div>
-        <div class="navigation">
+        <nav class="navigation">
           <div class="navigation__toggle">
             <div class="navigation__toggle-bar"></div>
           </div>
@@ -46,7 +50,7 @@
               <a class="navigation__menu-item">Contact</a>
             </div>
           </div>
-        </div>
+        </nav>
         <div class="page-home__menu flex flex_justify-content_space-between flex_align-items_center">
           <a class="page-home__menu-item">Home</a>
           <a class="page-home__menu-item">Services</a>
@@ -64,14 +68,15 @@
         <div class="page-home__text font font_secondary-regular">
           Your Favourite Creative Agency Template
         </div>
-        <button class="page-home__button">
+        <button class="button page-home__button">
           Get started
         </button>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="page-services flex flex_justify-content_center">
+  <!-- Page services -->
+  <section class="page-services flex flex_justify-content_center">
     <div class="section">
       <div class="title">
         <div class="title__text font font_primary-bold">Services</div>
@@ -119,9 +124,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="page-about flex flex_justify-content_center">
+  <!-- Page about -->
+  <section class="page-about flex flex_justify-content_center">
     <div class="section">
       <div class="title">
         <div class="title__text font font_primary-bold">About us</div>
@@ -248,7 +254,128 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <!-- Page work -->
+  <section class="page-work flex flex_justify-content_center">
+    <div class="section">
+      <div class="title">
+        <div class="title__text font font_primary-bold">Latest works</div>
+        <div class="title__line"></div>
+        <div class="page-work__categories title__description font font_secondary-regular flex flex_justify-content_center">
+          <a href="#" class="page-work__category page-work__category_active">All</a>
+          <a href="#" class="page-work__category">Branding</a>
+          <a href="#" class="page-work__category">Design</a>
+          <a href="#" class="page-work__category">Development</a>
+          <a href="#" class="page-work__category">Strategy</a>
+        </div>
+      </div>
+      <div class="page-work__gallery flex flex_wrap flex_justify-content_stretch">
+        <div class="page-work__gallery-item">
+          <img src="components/page-work/1.jpg" alt="img" class="page-work__image">
+          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+              <i class="page-work_fas fas fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="page-work__gallery-item">
+          <img src="components/page-work/2.jpg" alt="img" class="page-work__image">
+          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+              <i class="page-work_fas fas fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="page-work__gallery-item">
+          <img src="components/page-work/3.jpg" alt="img" class="page-work__image">
+          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+              <i class="page-work_fas fas fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="page-work__gallery-item">
+          <img src="components/page-work/4.jpg" alt="img" class="page-work__image">
+          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+              <i class="page-work_fas fas fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="page-work__gallery-item">
+          <img src="components/page-work/5.jpg" alt="img" class="page-work__image">
+          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+              <i class="page-work_fas fas fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="page-work__gallery-item">
+          <img src="components/page-work/6.jpg" alt="img" class="page-work__image">
+          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+              <i class="page-work_fas fas fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="page-work__gallery-item">
+          <img src="components/page-work/7.jpg" alt="img" class="page-work__image">
+          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+              <i class="page-work_fas fas fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="page-work__gallery-item">
+          <img src="components/page-work/8.jpg" alt="img" class="page-work__image">
+          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+              <i class="page-work_fas fas fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="page-work__gallery-item">
+          <img src="components/page-work/9.jpg" alt="img" class="page-work__image">
+          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+              <i class="page-work_fas fas fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner flex flex_justify-content_center">
+    <div class="section flex flex_align-items_center flex_justify-content_center">
+      <div class="banner__description font font_secondary-regular">
+        Do you like OUR WORK so far?
+        <br>Let's talk about YOUR PROJECT!
+      </div>
+      <a href="#" class="button flex flex_align-items_center flex_justify-content_center  ">
+        Get in Touch
+      </a>
+    </div>
+  </section>
   <!-- JS -->
   <script src="components/navigation/navigation.js"></script>
 </body>

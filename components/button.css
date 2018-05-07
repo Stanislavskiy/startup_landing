@@ -1,0 +1,10 @@
+.button {
+  width: 11rem;
+  height: 3rem;
+  background: transparent;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #fff;
+}

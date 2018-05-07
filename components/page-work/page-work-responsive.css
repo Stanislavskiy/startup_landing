@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .page-work .page-work__gallery-item {
+    width: 48%;
+  }
+}

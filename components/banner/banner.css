@@ -1,0 +1,12 @@
+.banner {
+  height: 50vh !important;
+  background: url("bg.jpg") no-repeat center / cover;
+}
+
+.banner__description {
+  text-align: center;
+  color: #fff;
+  font-size: 1.875rem;
+  line-height: 2.7rem;
+  margin-bottom: 3rem;
+}
