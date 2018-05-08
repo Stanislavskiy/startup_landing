@@ -1,0 +1,70 @@
+@import "page-blog-responsive.css";
+
+.page-blog__blogs {
+  margin-left: 1.7rem;
+  margin-top: 4.375rem;
+  margin-bottom: 4.375rem;
+}
+
+.page-blog__blog-picture {
+  width: 160%;
+  margin-right: 1.7rem;
+  overflow: hidden;
+}
+
+.page-blog__blog-image {
+  width: 100%;
+}
+
+.page-blog__blog-date {
+  width: 4rem;
+  height: 4rem;
+  padding: 0 !important;
+  text-align: center;
+  margin-right: 1.7rem;
+  border: 2px solid #555;
+  padding: 1rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.page-blog__number {
+  font-size: 1.5rem;
+}
+
+.page-blog__line {
+  border-top: 1px solid #dddddd;
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+  width: 100%;
+}
+
+.page-blog__description {
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+  font-size: 0.875rem;
+}
+
+.page-blog__button {
+  margin-top: 1.7rem;
+  font-size: 0.8125rem;
+  color: #c0301c;
+  text-transform: uppercase;
+}
+
+.page-blog__subheader {
+  margin-top: 0.7rem;
+  font-size: 0.8125rem;
+  color: #555;
+  text-transform: none;
+}
+
+.page-blog__blog-title {
+  font-size: 1rem;
+  color: #c0301c;
+  text-transform: uppercase;
+}
+
+.page-blog__accent {
+  color: #c0301c;
+}

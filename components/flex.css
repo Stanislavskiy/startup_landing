@@ -10,6 +10,10 @@
   justify-content: center;
 }
 
+.flex .flex_justify-content_start {
+  justify-content: flex-start;
+}
+
 .flex_justify-content_stretch {
   justify-content: stretch;
 }
@@ -52,6 +56,30 @@
 
 .flex_order_1 {
   order: 1;
+}
+
+/* medium  */
+
+@media screen and (max-width: 1024px) {
+  .flex_medium-column {
+    flex-direction: column;
+  }
+
+  .flex_medium-align-self_end {
+    align-self: flex-end;
+  }
+
+  .flex_medium-align-items_center {
+    align-items: center;
+  }
+
+  .flex_medium-justify-content_space-around {
+    justify-content: space-around;
+  }
+
+  .flex_medium-justify-content_center {
+    justify-content: center;
+  }
 }
 
 /* small */

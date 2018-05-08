@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+  .page-blog__blogs {
+    margin-left: 0;
+  }
+
+  .page-blog .page-blog__blog-picture {
+    width: 100%;
+    height: 10rem !important;
+    margin-bottom: 1.75rem;
+  }
+  .page-blog .page-blog__blog-image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page-blog__blogs {
+    margin-left: 0;
+  }
+
+  .page-blog .page-blog__blog-picture {
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 1.75rem;
+    order: 2;
+  }
+
+  .page-blog .page-blog__blog-image {
+    width: 100%;
+  }
+
+  .page-blog .page-blog__blog-header {
+    order: 1;
+  }
+}

@@ -9,7 +9,7 @@
   <!-- Fonts & icons -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700|Roboto+Slab" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
-    crossorigin="anonymous">
+  crossorigin="anonymous">
   <!-- Baase components  -->
   <link rel="stylesheet" href="components/font.css">
   <link rel="stylesheet" href="components/common.css">
@@ -24,6 +24,8 @@
   <link rel="stylesheet" href="components/page-about/page-about.css">
   <link rel="stylesheet" href="components/page-work/page-work.css">
   <link rel="stylesheet" href="components/banner/banner.css">
+  <link rel="stylesheet" href="components/page-blog/page-blog.css">
+  <link rel="stylesheet" href="components/page-blog/page-blog-responsive.css">
 
 </head>
 
@@ -243,141 +245,208 @@
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
-            </a>
-          </div>
-          <div class="page-about__profile-title font font_primary-bold">
-            John Doe
-          </div>
-          <div class="page-about__profile-description font font_secondary-regular">
-            Front-end Developer
-          </div>
+          </a>
+        </div>
+        <div class="page-about__profile-title font font_primary-bold">
+          John Doe
+        </div>
+        <div class="page-about__profile-description font font_secondary-regular">
+          Front-end Developer
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Page work -->
-  <section class="page-work flex flex_justify-content_center">
-    <div class="section">
-      <div class="title">
-        <div class="title__text font font_primary-bold">Latest works</div>
-        <div class="title__line"></div>
-        <div class="page-work__categories title__description font font_secondary-regular flex flex_justify-content_center">
-          <a href="#" class="page-work__category page-work__category_active">All</a>
-          <a href="#" class="page-work__category">Branding</a>
-          <a href="#" class="page-work__category">Design</a>
-          <a href="#" class="page-work__category">Development</a>
-          <a href="#" class="page-work__category">Strategy</a>
+<!-- Page work -->
+<section class="page-work flex flex_justify-content_center">
+  <div class="section">
+    <div class="title">
+      <div class="title__text font font_primary-bold">Latest works</div>
+      <div class="title__line"></div>
+      <div class="page-work__categories title__description font font_secondary-regular flex flex_justify-content_center">
+        <a href="#" class="page-work__category page-work__category_active">All</a>
+        <a href="#" class="page-work__category">Branding</a>
+        <a href="#" class="page-work__category">Design</a>
+        <a href="#" class="page-work__category">Development</a>
+        <a href="#" class="page-work__category">Strategy</a>
+      </div>
+    </div>
+    <div class="page-work__gallery flex flex_wrap flex_justify-content_stretch">
+      <div class="page-work__gallery-item">
+        <img src="components/page-work/1.jpg" alt="img" class="page-work__image">
+        <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+          <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+          <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+          <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+            <i class="page-work_fas fas fa-angle-right"></i>
+          </a>
         </div>
       </div>
-      <div class="page-work__gallery flex flex_wrap flex_justify-content_stretch">
-        <div class="page-work__gallery-item">
-          <img src="components/page-work/1.jpg" alt="img" class="page-work__image">
-          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
-            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
-            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
-            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
-              <i class="page-work_fas fas fa-angle-right"></i>
-            </a>
-          </div>
+      <div class="page-work__gallery-item">
+        <img src="components/page-work/2.jpg" alt="img" class="page-work__image">
+        <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+          <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+          <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+          <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+            <i class="page-work_fas fas fa-angle-right"></i>
+          </a>
         </div>
-        <div class="page-work__gallery-item">
-          <img src="components/page-work/2.jpg" alt="img" class="page-work__image">
-          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
-            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
-            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
-            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
-              <i class="page-work_fas fas fa-angle-right"></i>
-            </a>
-          </div>
+      </div>
+      <div class="page-work__gallery-item">
+        <img src="components/page-work/3.jpg" alt="img" class="page-work__image">
+        <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+          <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+          <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+          <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+            <i class="page-work_fas fas fa-angle-right"></i>
+          </a>
         </div>
-        <div class="page-work__gallery-item">
-          <img src="components/page-work/3.jpg" alt="img" class="page-work__image">
-          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
-            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
-            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
-            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
-              <i class="page-work_fas fas fa-angle-right"></i>
-            </a>
-          </div>
+      </div>
+      <div class="page-work__gallery-item">
+        <img src="components/page-work/4.jpg" alt="img" class="page-work__image">
+        <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+          <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+          <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+          <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+            <i class="page-work_fas fas fa-angle-right"></i>
+          </a>
         </div>
-        <div class="page-work__gallery-item">
-          <img src="components/page-work/4.jpg" alt="img" class="page-work__image">
-          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
-            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
-            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
-            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
-              <i class="page-work_fas fas fa-angle-right"></i>
-            </a>
-          </div>
+      </div>
+      <div class="page-work__gallery-item">
+        <img src="components/page-work/5.jpg" alt="img" class="page-work__image">
+        <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+          <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+          <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+          <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+            <i class="page-work_fas fas fa-angle-right"></i>
+          </a>
         </div>
-        <div class="page-work__gallery-item">
-          <img src="components/page-work/5.jpg" alt="img" class="page-work__image">
-          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
-            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
-            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
-            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
-              <i class="page-work_fas fas fa-angle-right"></i>
-            </a>
-          </div>
+      </div>
+      <div class="page-work__gallery-item">
+        <img src="components/page-work/6.jpg" alt="img" class="page-work__image">
+        <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+          <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+          <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+          <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+            <i class="page-work_fas fas fa-angle-right"></i>
+          </a>
         </div>
-        <div class="page-work__gallery-item">
-          <img src="components/page-work/6.jpg" alt="img" class="page-work__image">
-          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
-            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
-            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
-            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
-              <i class="page-work_fas fas fa-angle-right"></i>
-            </a>
-          </div>
+      </div>
+      <div class="page-work__gallery-item">
+        <img src="components/page-work/7.jpg" alt="img" class="page-work__image">
+        <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+          <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+          <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+          <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+            <i class="page-work_fas fas fa-angle-right"></i>
+          </a>
         </div>
-        <div class="page-work__gallery-item">
-          <img src="components/page-work/7.jpg" alt="img" class="page-work__image">
-          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
-            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
-            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
-            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
-              <i class="page-work_fas fas fa-angle-right"></i>
-            </a>
-          </div>
+      </div>
+      <div class="page-work__gallery-item">
+        <img src="components/page-work/8.jpg" alt="img" class="page-work__image">
+        <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+          <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+          <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+          <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+            <i class="page-work_fas fas fa-angle-right"></i>
+          </a>
         </div>
-        <div class="page-work__gallery-item">
-          <img src="components/page-work/8.jpg" alt="img" class="page-work__image">
-          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
-            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
-            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
-            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
-              <i class="page-work_fas fas fa-angle-right"></i>
-            </a>
-          </div>
-        </div>
-        <div class="page-work__gallery-item">
-          <img src="components/page-work/9.jpg" alt="img" class="page-work__image">
-          <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
-            <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
-            <div class="page-work__screen-description font font_secondary-regular">Branding</div>
-            <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
-              <i class="page-work_fas fas fa-angle-right"></i>
-            </a>
-          </div>
+      </div>
+      <div class="page-work__gallery-item">
+        <img src="components/page-work/9.jpg" alt="img" class="page-work__image">
+        <div class="page-work__screen flex flex_align-items_center flex_justify-content_center flex_column">
+          <div class="page-work__screen-title font font_primary-medium">Hair Dresser</div>
+          <div class="page-work__screen-description font font_secondary-regular">Branding</div>
+          <a href="#" class="page-work__screen-button flex flex_align-items_center flex_justify-content_center font_secondary-regular">View
+            <i class="page-work_fas fas fa-angle-right"></i>
+          </a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="banner flex flex_justify-content_center">
-    <div class="section flex flex_align-items_center flex_justify-content_center">
-      <div class="banner__description font font_secondary-regular">
-        Do you like OUR WORK so far?
-        <br>Let's talk about YOUR PROJECT!
-      </div>
-      <a href="#" class="button flex flex_align-items_center flex_justify-content_center  ">
-        Get in Touch
-      </a>
+<section class="banner flex flex_justify-content_center">
+  <div class="section flex flex_align-items_center flex_justify-content_center">
+    <div class="banner__description font font_secondary-regular">
+      Do you like OUR WORK so far?
+      <br>Let's talk about YOUR PROJECT!
     </div>
-  </section>
-  <!-- JS -->
-  <script src="components/navigation/navigation.js"></script>
+    <a href="#" class="button flex flex_align-items_center flex_justify-content_center  ">
+      Get in Touch
+    </a>
+  </div>
+</section>
+
+<section class="page-blog flex flex_justify-content_center">
+  <div class="section">
+    <div class="title">
+      <div class="title__text font font_primary-bold">Recent blog posts</div>
+      <div class="title__line"></div>
+      <div class="title__description font font_secondary-regular">
+        lorem ipsum dolor sit amet, consetetur sadipscing elitr amet
+      </div>
+    </div>
+    <div class="page-blog__blogs">
+      <div class="page-blog__blog flex flex_justify-content_space-between flex_medium-align-content_center flex_medium-column">
+        <div class="page-blog__blog-picture flex flex_align-items_center flex_justify-content_center">
+          <img src="components/page-blog/1.jpg" alt="img" class="page-blog__blog-image">
+        </div>
+        <div class="page-blog__blog-content">
+          <div class="page-blog__blog-header flex flex_justify-content_start">
+            <div class="page-blog__blog-date flex flex_justify-content_center flex_align-items_center flex_column font font_primary-bold">
+              <div class="page-blog__number">18</div>
+              oct
+            </div>
+            <div class="page-blog__blog-title font font_primary-bold">
+              Startup ideas needs to be funded
+              <div class="page-blog__subheader font font_secondary-regular">
+                By <span class="page-blog__accent">Khalil</span> Uddin in <span class="page-blog__accent">Development</span>
+              </div>
+            </div>
+          </div>
+          <div class="page-blog__blog-responsive-picture flex flex_align-items_center flex_justify-content_center">
+            <img src="components/page-blog/1.jpg" alt="img" class="page-blog__blog-image">
+          </div>
+          <div class="page-blog__description flex font font_secondary-regular">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod teduntlabore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et erebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit am Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidulabore et dolore aliquyam erat, sed diam
+          </div>
+          <a href="#" class="page-blog__button font font_secondary-regular">read more</a>
+        </div>
+      </div>
+      <div class="page-blog__line"></div>
+      <div class="page-blog__blog flex flex_justify-content_space-between flex_medium-align-content_center flex_medium-column">
+        <div class="page-blog__blog-picture flex flex_align-items_center flex_justify-content_center">
+          <img src="components/page-blog/2.jpg" alt="img" class="page-blog__blog-image">
+        </div>
+        <div class="page-blog__blog-content">
+          <div class="page-blog__blog-header flex flex_justify-content_start">
+            <div class="page-blog__blog-date flex flex_justify-content_center flex_align-items_center flex_column font font_primary-bold">
+              <div class="page-blog__number">18</div>
+              oct
+            </div>
+            <div class="page-blog__blog-title font font_primary-bold">
+              User Interface Designing Elements
+              <div class="page-blog__subheader font font_secondary-regular">
+                By <span class="page-blog__accent">Khalil</span> Uddin in <span class="page-blog__accent">Development</span>
+              </div>
+            </div>
+          </div>
+          <div class="page-blog__blog-responsive-picture flex flex_align-items_center flex_justify-content_center">
+            <img src="components/page-blog/1.jpg" alt="img" class="page-blog__blog-image">
+          </div>
+          <div class="page-blog__description font font_secondary-regular">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod teduntlabore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et erebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit am Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidulabore et dolore aliquyam erat, sed diam
+          </div>
+          <a href="#" class="page-blog__button font font_secondary-regular">read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- JS -->
+<script src="components/navigation/navigation.js"></script>
 </body>
 
 </html>
