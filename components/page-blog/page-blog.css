@@ -68,3 +68,10 @@
 .page-blog__accent {
   color: #c0301c;
 }
+
+.page-blog__blog-responsive-picture {
+  display: none;
+  width: 100%;
+  margin-top: 1.75rem;
+  overflow: hidden;
+}
