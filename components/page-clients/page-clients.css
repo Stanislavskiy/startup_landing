@@ -1,0 +1,23 @@
+@import "page-clients-responsive.css";
+
+.page-clients {
+  background: #f8f8f8;
+  padding-top: 4.375rem;
+  padding-bottom: 4.375rem;
+}
+
+.page-clients__brand {
+  width: 15%;
+}
+
+.page-clients__quote-carousel {
+  margin-top: 1.75rem;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.page-clients__quote-autor {
+  margin-top: 1.75rem;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+}

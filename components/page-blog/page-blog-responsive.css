@@ -1,7 +1,4 @@
 @media screen and (max-width: 768px) {
-  .page-blog__blogs {
-    margin-left: 0;
-  }
 
   .page-blog .page-blog__blog-responsive-picture {
     display: block;
@@ -15,9 +12,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .page-blog__blogs {
-    margin-left: 0;
-  }
 
   .page-blog .page-blog__blog-responsive-picture {
     display: block;

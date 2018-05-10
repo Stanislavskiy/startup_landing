@@ -1,10 +1,14 @@
 @import "page-blog-responsive.css";
 
-.page-blog__blogs {
-  margin-left: 1.7rem;
-  margin-top: 4.375rem;
-  margin-bottom: 4.375rem;
+.page-blog {
+  padding-top: 4.375rem;
+  padding-bottom: 4.375rem;
 }
+
+.page-blog__blogs {
+  margin-top: 4.375rem;
+}
+
 
 .page-blog__blog-picture {
   width: 160%;

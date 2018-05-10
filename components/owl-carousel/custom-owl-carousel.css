@@ -1,0 +1,19 @@
+@import "lib/dist/assets/owl.carousel.min.css";
+@import "lib/dist/assets/owl.theme.default.min.css";
+@import "custom-owl-carousel-responsive.css";
+
+/*
+OVERWRITES OWL CAROUSEL CLASSES
+*/
+
+.owl-dots {
+  margin-top: 1.75rem !important;
+}
+
+.owl-dot>span {
+  background: #ddd !important;
+}
+
+.active>span {
+background: #c0301c !important;
+}

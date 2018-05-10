@@ -1,5 +1,10 @@
 @import "page-work-responsive.css";
 
+.page-work {
+  padding-top: 4.375rem;
+  padding-bottom: 4.375rem;
+}
+
 .page-work__categories {
   margin: 0 auto;
 }
@@ -16,7 +21,6 @@
 
 .page-work__gallery {
   margin-top: 3.375rem;
-  margin-bottom: 3.375rem;
 }
 
 .page-work__gallery-item {

@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px) {
+
+  .page-contact .page-contact__contact-form {
+    width: 100%;
+  }
+
+  .page-contact .page-contact__form-button {
+    order: 2;
+  }
+
+  .page-contact .page-contact__form-hint {
+    order: 1;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+}

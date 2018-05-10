@@ -1,6 +1,8 @@
 .banner {
   height: 50vh !important;
   background: url("bg.jpg") no-repeat center / cover;
+  padding-top: 4.375rem;
+  padding-bottom: 4.375rem;
 }
 
 .banner__description {

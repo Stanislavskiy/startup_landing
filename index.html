@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="components/flex.css">
   <link rel="stylesheet" href="components/title.css">
   <link rel="stylesheet" href="components/button.css">
+  <link rel="stylesheet" href="components/owl-carousel/custom-owl-carousel.css">
   <!-- Pages -->
   <link rel="stylesheet" href="components/page-home/page-home.css">
   <link rel="stylesheet" href="components/navigation/navigation.css">
@@ -25,7 +26,8 @@
   <link rel="stylesheet" href="components/page-work/page-work.css">
   <link rel="stylesheet" href="components/banner/banner.css">
   <link rel="stylesheet" href="components/page-blog/page-blog.css">
-  <link rel="stylesheet" href="components/page-blog/page-blog-responsive.css">
+  <link rel="stylesheet" href="components/page-clients/page-clients.css">
+  <link rel="stylesheet" href="components/page-contact/page-contact.css">
 
 </head>
 
@@ -445,6 +447,105 @@
     </div>
   </div>
 </section>
+
+<section class="page-clients flex flex_justify-content_center">
+  <div class="section">
+    <div class="page-clients__brands flex flex_justify-content_space-around flex_align-items_center">
+      <img src="components/page-clients/1.png" alt="img" class="page-clients__brand">
+      <img src="components/page-clients/2.png" alt="img" class="page-clients__brand">
+      <img src="components/page-clients/3.png" alt="img" class="page-clients__brand">
+      <img src="components/page-clients/4.png" alt="img" class="page-clients__brand">
+      <img src="components/page-clients/5.png" alt="img" class="page-clients__brand">
+    </div>
+    <div class="page-clients__quote-carousel owl-carousel owl-theme">
+      <div class="page-clients__quote font font_secondary-italic">
+        ”Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum”
+        <div class="page-clients__quote-autor font font_secondary-regular">
+          John Doe, Google Inc.
+        </div>
+      </div>
+      <div class="page-clients__quote font font_secondary-italic">
+        ”Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum”
+        <div class="page-clients__quote-autor font font_secondary-regular">
+          John Doe, Google Inc.
+        </div>
+      </div>
+      <div class="page-clients__quote font font_secondary-italic">
+        ”Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum”
+        <div class="page-clients__quote-autor font font_secondary-regular">
+          John Doe, Google Inc.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-contact flex flex_justify-content_center">
+  <div class="section">
+    <div class="title">
+      <div class="title__text font font_primary-bold">Get in touch</div>
+      <div class="title__line"></div>
+      <div class="title__description font font_secondary-regular">
+        We offer ipsum dolor sit amet, consetetur sadipscing elitr amet
+      </div>
+    </div>
+    <div class="page-contact__content flex flex_justify-content_space-between  flex_medium-column">
+      <div class="page-contact__contacts flex flex_justify-content_space-between flex_column flex_medium-row flex_medium-justify-content_space-between">
+        <div class="page-contact__contact flex flex_justify-content_start flex_align-items_start">
+          <img src="components/page-contact/1.png" alt="img" class="page-contact__icon">
+          <div class="page-contact__cntact-info">
+            <div class="page-contact__contact-title font font_primary-bold">Address</div>
+            <div class="page-contact__contact-description font font_secondary-regular">
+              312, 7th Ave, New York
+              <br>NY 101200, United States of America
+            </div>
+          </div>
+        </div>
+        <div class="page-contact__contact flex flex_justify-content_start flex_align-items_start">
+          <img src="components/page-contact/2.png" alt="img" class="page-contact__icon">
+          <div class="page-contact__cntact-info">
+            <div class="page-contact__contact-title font font_primary-bold">Hotline (24x7)</div>
+            <div class="page-contact__contact-description font font_secondary-regular">
+              +65 0052 300, +65 88251 210
+              <br> +88 01723 511 340
+            </div>
+          </div>
+        </div>
+        <div class="page-contact__contact flex flex_justify-content_start flex_align-items_start">
+          <img src="components/page-contact/3.png" alt="img" class="page-contact__icon">
+          <div class="page-contact__cntact-info">
+            <div class="page-contact__contact-title font font_primary-bold">E-mail</div>
+            <div class="page-contact__contact-description font font_secondary-regular">
+              shapedtheme@gmail.com
+              <br>khalilkode@gmail.com
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-contact__contact-form flex flex_justify-content_start flex_wrap flex_align-content_start font font_secondary-regular flex_medium-justify-content_center">
+        <input type="text" class="page-contact__form-small-field">
+        <input type="text" class="page-contact__form-small-field">
+        <input type="text" class="page-contact__form-small-field">
+        <input type="text" class="page-contact__form-small-field">
+        <input type="text" class="page-contact__form-large-field">
+        <a href="#" class="page-contact__form-button flex flex_justify-content_center flex_align-items_center">
+          send message
+        </a>
+        <div class="page-contact__form-hint flex flex_align-items_center flex_justify-content_center">
+          <span class="page-contact_accent-color">*</span> We’ll contact you as as possible. We don’t reply on Monday.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- JQUERY (for owl-carousel) -->
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<!-- OWL CAROUSEL -->
+<script src="components/owl-carousel/lib/dist/owl.carousel.min.js"></script>
+<script src="components/owl-carousel/owl-carousel__init.js"></script>
 <!-- JS -->
 <script src="components/navigation/navigation.js"></script>
 </body>
