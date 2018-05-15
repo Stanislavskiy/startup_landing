@@ -100,23 +100,23 @@
 
 /* small */
 @media screen and (max-width: 768px) {
-  .flex_small-column {
+  .flex .flex_small-column {
     flex-direction: column;
   }
 
-  .flex_small-align-self_end {
+  .flex .flex_small-align-self_end {
     align-self: flex-end;
   }
 
-  .flex_small-align-items_center {
+  .flex .flex_small-align-items_center {
     align-items: center;
   }
 
-  .flex_small-justify-content_space-around {
+  .flex .flex_small-justify-content_space-around {
     justify-content: space-around;
   }
 
-  .flex_small-justify-content_center {
+  .flex .flex_small-justify-content_center {
     justify-content: center;
   }
 }

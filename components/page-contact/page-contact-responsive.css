@@ -15,3 +15,23 @@
   }
 
 }
+
+
+@media screen and (max-width:768px) {
+  .page-contact .page-contact__icon {
+    display: none;
+  }
+
+  .page-contact .page-contact__contact {
+    text-align: center;
+  }
+
+  .page-contact .page-contact__contacts {
+    margin-top: 1.75rem;
+    order: 2;
+  }
+
+  .page-contact .page-contact__contact-form {
+    order: 1;
+  }
+}
