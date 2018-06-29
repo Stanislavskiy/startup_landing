@@ -17,6 +17,7 @@
 
 .page-home__menu-item {
   cursor: pointer;
+  color: #fff;
 }
 
 .page-home__menu-item:hover {
@@ -26,6 +27,7 @@
 .page-home__logo {
   font-size: 1.5rem;
   color: #fff;
+  cursor: pointer;
 }
 
 .page-home__center {

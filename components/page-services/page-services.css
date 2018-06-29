@@ -20,6 +20,7 @@
   height: 5.625rem;
   border-radius: 50%;
   border: 2pt solid #ddd;
+  cursor: pointer;
 }
 
 .page-services__service-image-wrapper:hover {

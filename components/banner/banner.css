@@ -12,3 +12,8 @@
   line-height: 2.7rem;
   margin-bottom: 3rem;
 }
+
+.banner .button:hover {
+  color: #c0301c;
+  background: #fff;
+}

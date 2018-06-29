@@ -38,6 +38,7 @@
 
 .navigation__menu-item {
   display: block;
+  color: white !important;
 }
 
 .navigation__toggle {
